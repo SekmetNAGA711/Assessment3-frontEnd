@@ -38,6 +38,10 @@ a {
 	color: orange;
 }
 
+.things{
+ color:#000
+}
+
 a:visited {
 	color: crimson;
 }
