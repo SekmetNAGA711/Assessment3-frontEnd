@@ -1,3 +1,5 @@
+
+
 body {
   background: #ddd;
   margin: 1rem;
@@ -5,6 +7,8 @@ body {
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
+  font-size: medium;
+ 
 }
 
 nav {
@@ -35,4 +39,157 @@ input {
 
 img {
 	max-width: 300px;
+	max-height: 250px;
 }
+
+.box1 {
+	position: relative;
+	width: 700px;
+    min-height: 300px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+	right: 500px;
+	padding-left: 18px;
+	padding-right: 18px ;
+	
+	
+  }
+
+
+
+
+  
+  body.myProfile {
+	background: url('./backjpeg.jpeg');
+	background-size: cover;
+	color: black;
+	/* position: relative */
+
+  }
+
+
+  header {
+	top: -20px;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+	position: relative;
+	
+  }
+
+  #backlink{
+	position: relative;
+	right:460px;
+	font-size: medium;
+	top: 0px;
+  }
+
+  .box2 {
+	position: relative;
+	width: 250px;
+    min-height: 300px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+	right: 450px;
+	padding-left: 1px;
+	padding-right: 1px;
+  }
+
+  .box3 {
+	position:relative;
+	width: 250px;
+    min-height: 300px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+	bottom: 317px;
+	right: 90px;
+	padding-left: 6px;
+	padding-right: 6px;
+  }
+
+
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 400px;
+	margin: auto;
+	text-align: center;
+	/* background-color: #8FBC8F; */
+	min-height: 150px;
+	position: relative;
+	left: 400px;
+	bottom: 1195px;
+
+  }
+ 
+  
+  .title {
+	color: black;
+	font-size: 18px;
+
+  }
+  
+  .cardButton {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  /* .cardlink {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+  } */
+  
+  #me{
+	border-radius: 50%;
+  }
+  .cardButton, .cardlink:hover {
+	opacity: 0.7;
+  }
+  
+
+  .box4 {
+	position:relative;
+	width: 250px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	bottom: 550px;
+	left: 550px;
+
+  }
+
+  .btnTheme {
+    font-size: large;
+	background-color:#EFFD5F
+  }
+
+  #Hello{
+	font-size: x-large;
+	font-weight: 500;
+  }
